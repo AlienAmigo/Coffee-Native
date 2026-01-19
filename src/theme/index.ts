@@ -2,10 +2,10 @@ import {
   MD3LightTheme as DefaultTheme,
   MD3Theme,
   useTheme as useRNPTheme,
-} from 'react-native-paper';
+} from "react-native-paper";
 
 export interface IReactNativePaperCustomTheme extends MD3Theme {
-  colors: MD3Theme['colors'];
+  colors: MD3Theme["colors"];
 }
 
 export const theme: IReactNativePaperCustomTheme = {

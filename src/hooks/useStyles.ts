@@ -1,9 +1,9 @@
 // useStyles.ts
-import { useMemo } from 'react';
-import { useTheme, IReactNativePaperCustomTheme } from '@/theme';
+import { useMemo } from "react";
+import { useTheme, IReactNativePaperCustomTheme } from "@/theme";
 
 export const useStyles = <T>(
-  createStyle: (theme: IReactNativePaperCustomTheme) => T
+  createStyle: (theme: IReactNativePaperCustomTheme) => T,
 ) => {
   const theme: IReactNativePaperCustomTheme = useTheme();
 
